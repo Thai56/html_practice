@@ -59,6 +59,7 @@ nav {
 } */
 
 /* HERO ONE BARBELL */
+
 #hero-one-barbell {
     height: 400px;
     background: url('./assets/barbell.jpg');
@@ -78,7 +79,6 @@ nav {
     width: 200px;
     background: black;
     transform: rotate(45deg);
-    /* TODO: Find a more consistent way to make this overlay the two divs it is placed above */
     top: 418px;
     left: 267px;
 }
