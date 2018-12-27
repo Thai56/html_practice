@@ -1,0 +1,109 @@
+/* FONT COLORS */
+
+.orange {
+  color:orange;  
+}
+
+.white {
+    color: white;
+}
+
+/* BACKGROUND COLORS */
+
+.black-background {
+    background-color: black;
+}
+
+.red-background {
+    background-color: red;
+}
+
+/* NAV BAR */
+
+nav {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 65px;
+}
+
+#nav-bar-left {
+    position: absolute;
+    width: 200px;
+    /* border: 1px solid orange; */
+    left: 84px;
+    top: 16px;
+}
+
+#nav-bar-right {
+    position: absolute;
+    top: 24px;
+    right: 74px;
+}
+
+#nav-bar-buttons {
+    width: 300px;
+    /* border: 1px solid red; */
+    display: -webkit-inline-box;
+}
+
+.nav-btn {
+    margin-left: 5px;
+}
+
+/* @media (min-width:500px){
+    #nav-bar-left{
+        width: 300px;
+        border: 1px solid white;
+    }
+} */
+
+/* HERO ONE BARBELL */
+#hero-one-barbell {
+    height: 400px;
+    background: url('./assets/barbell.jpg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain; /* Resize the background image to cover the entire container */
+    /* TODO: Find a better way of making this have a bottom space */
+    margin-bottom: 200px;
+}
+
+/* SPECIAL SERVICES OVERLAY */
+
+#special-services-overlay {
+    position: absolute;
+    z-index: 100;
+    height: 200px;
+    width: 200px;
+    background: black;
+    transform: rotate(45deg);
+    /* TODO: Find a more consistent way to make this overlay the two divs it is placed above */
+    top: 418px;
+    left: 267px;
+}
+
+#special-overlay-body {
+    position: absolute;
+    width: 124px;
+    top: 25%;
+    left: 44px;
+}
+
+#special-overlay-tag {
+    position: absolute;
+    border: 1px solid white;
+    bottom: 27px;
+    left: 120px;
+}
+
+.special-overlay-text {
+    transform: rotate(-45deg)
+}
+
+/* HERO TWO EXPERTS AND TRAINERS */
+
+#experts-and-trainers-text {
+    font-size: 24px;
+    text-align: center;
+}
