@@ -22,24 +22,57 @@
                 </ul>
             </div>
         </nav>
+        <div id="hero-one-and-two-container">
+            <section id="hero-one-barbell"> <!-- Have image up but not right fit 12-26-18 12:05-->
 
-        <section id="hero-one-barbell"> <!-- Have image up but not right fit 12-26-18 12:05-->
+            </section>
 
-        </section>
+            <!-- There will need to be a little css magic for this service section that was not put in yet-->
+            <section id="special-services-overlay" class="rotate-45"> <!-- Make this a reusable component one day-->
 
-        <!-- There will need to be a little css magic for this service section that was not put in yet-->
-        <section id="special-services-overlay"> <!-- Make this a reusable component one day-->
+                <div id="special-overlay-title" class="rotate-negative-45 orange">OurServices</div>
+                <div id="special-overlay-body" class="rotate-negative-45 orange">
+                    Lorem Ipsum Simply dummy text of the printing and typesetting industry
+                </div>
+                <div id="special-overlay-tag" class="rotate-negative-45 red-background">Read More</div>
+            </section>
 
-            <div id="special-overlay-title" class="special-overlay-text orange">OurServices</div>
-            <div id="special-overlay-body" class="special-overlay-text orange">
-                Lorem Ipsum Simply dummy text of the printing and typesetting industry
-            </div>
-            <div id="special-overlay-tag" class="special-overlay-text red-background">Read More</div>
-        </section>
+            <section id="panorama-container"> <!-- This will contain the four boxes that will be a part of the panorama --> 
+                <div class="rotate-45 panorama-box">Yoga</div> <!-- TODO: fix the text because were not rotating with class "rotate-negative-45" -->
+                <div class="rotate-45 panorama-box">Weighting</div>
+                <div class="rotate-45 panorama-box">MartialArts </div>
+                <div class="rotate-45 panorama-box">Barbell</div>
+            </section>
 
-        <section id="hero-two-trainers">
-            <div id="experts-and-trainers-text"><i>OUR</i> <b>EXPERTS AND TRAINERS</b></div>
-        </section>
+            <section id="hero-two-trainers">
+                <div id="experts-and-trainers-text"><i>OUR</i> <b>EXPERTS AND TRAINERS</b></div>
+
+                <div id="trainer-carousel"> <!-- carousel that holds the trainers there will be three at a time -->
+                    <div id='first-trainer' class='trainer-wrapper'> <!-- each of these wrappers will contain two divs one for the image and one for the social media-->
+                        <div id="trainer-one-image" class="trainer-image-box"></div>
+
+                        <div class="trainer-media-container"> <!-- this will contain the social media for each trainer that will have a higher z-index than the image above -->
+
+                        </div>
+                    </div>
+                    <div id='second-trainer' class='trainer-wrapper'> <!-- each of these wrappers will contain two divs one for the image and one for the social media-->
+                        <div id="trainer-two-image" class="trainer-image-box"></div>
+
+                        <div class="trainer-media-container"> <!-- this will contain the social media for each trainer that will have a higher z-index than the image above -->
+
+                        </div>
+                    </div>
+                    <div id='third-trainer' class='trainer-wrapper'> <!-- each of these wrappers will contain two divs one for the image and one for the social media-->
+                        <div id="trainer-three-image" class="trainer-image-box"></div>
+
+                        <div class="trainer-media-container"> <!-- this will contain the social media for each trainer that will have a higher z-index than the image above -->
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
 
         <section id="hero-three-blog">
 
