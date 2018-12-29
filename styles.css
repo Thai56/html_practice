@@ -122,6 +122,12 @@ nav {
     border: 2px solid red;
 }
 
+.panorama-box-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
 .panorama-box-text {
     position: absolute; 
     bottom: 14px;
