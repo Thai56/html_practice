@@ -115,13 +115,24 @@ nav {
 }
 
 .panorama-box {
+    position: relative;
     height: 80px;
     width: 80px;
-    z-index: 150; /* TODO: Find out if this relevant to the way we are keeping track of indices */
+    z-index: 150;
     border: 2px solid red;
 }
 
+.panorama-box-text {
+    position: absolute; 
+    bottom: 14px;
+    left: 31px;
+    width: 50px;
+    font-size: 12px;
+    text-align: center;
+}
+
 /* HERO TWO EXPERTS AND TRAINERS */
+
 #hero-two-trainers {
     position: relative;
 }
